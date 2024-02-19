@@ -12,6 +12,8 @@
 		3F80EB842B284E4B0090A730 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F80EB832B284E4B0090A730 /* Assets.xcassets */; };
 		3F80EB872B284E4B0090A730 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F80EB862B284E4B0090A730 /* Preview Assets.xcassets */; };
 		3F80EB8E2B2871910090A730 /* CardFlipHero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F80EB8D2B2871910090A730 /* CardFlipHero.swift */; };
+		3FB259522B83852D0035D013 /* CardsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB259512B83852D0035D013 /* CardsView.swift */; };
+		3FB259542B83854B0035D013 /* CardsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB259532B83854B0035D013 /* CardsViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +23,8 @@
 		3F80EB832B284E4B0090A730 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3F80EB862B284E4B0090A730 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3F80EB8D2B2871910090A730 /* CardFlipHero.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardFlipHero.swift; sourceTree = "<group>"; };
+		3FB259512B83852D0035D013 /* CardsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsView.swift; sourceTree = "<group>"; };
+		3FB259532B83854B0035D013 /* CardsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,8 @@
 				3F80EB832B284E4B0090A730 /* Assets.xcassets */,
 				3F80EB852B284E4B0090A730 /* Preview Content */,
 				3F80EB8D2B2871910090A730 /* CardFlipHero.swift */,
+				3FB259512B83852D0035D013 /* CardsView.swift */,
+				3FB259532B83854B0035D013 /* CardsViewModel.swift */,
 			);
 			path = RotateCard;
 			sourceTree = "<group>";
@@ -142,6 +148,8 @@
 			files = (
 				3F80EB8E2B2871910090A730 /* CardFlipHero.swift in Sources */,
 				3F80EB822B284E490090A730 /* ContentView.swift in Sources */,
+				3FB259542B83854B0035D013 /* CardsViewModel.swift in Sources */,
+				3FB259522B83852D0035D013 /* CardsView.swift in Sources */,
 				3F80EB802B284E490090A730 /* RotateCardApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

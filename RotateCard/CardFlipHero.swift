@@ -39,7 +39,7 @@ struct CardFlipHero: View {
              }.padding()
              */
             Spacer()
-            FlipView(
+            FlipView (
                 //front: CardFace(text: "press here for flip", colorBg: .gray),
                 //back: CardBack(),
                 front: CardSrb(text: srbValue, number: number),
@@ -140,34 +140,6 @@ private struct FlipOpacity: Animatable, ViewModifier { //} AnimatableModifier {
     }
 }
 
-/*
-struct CardFace : View {
-    var text : String
-    var colorBg: Color
-
-    var body: some View {
-        Text(text)
-            .multilineTextAlignment(.center)
-            .padding(5)
-            .frame(width: 250, height: 420)
-            .background(colorBg, in: RoundedRectangle(cornerRadius: 20))
-    }
-}
-
-struct CardBack: View {
-    
-    var body: some View {
-        VStack() {
-            Image(systemName: "swift")
-                .resizable()
-                .aspectRatio(contentMode: .fit)
-        }
-        .frame(width: 250, height: 420)
-        .background(.orange, in: RoundedRectangle(cornerRadius: 20))
-
-    }
-}
-*/
 
 struct CardBase : View {
     
@@ -177,8 +149,6 @@ struct CardBase : View {
     var foregr: Color
     var backgr: Color
     var number: Int
-    
-    //
     
     var body: some View {
         //Text(currentCardNumber == number ? text : "")
